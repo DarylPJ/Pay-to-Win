@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cc0000">
+    <TextView
+        android:text="You lose! Good Day Sir!"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:paddingBottom="150px"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#cc0000"
+        android:textColor="#ffffff" />
+    <Button
+        android:text="Pay to win"
+        android:onClick="Pay_to_win"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonPaytoWin"
+        android:textColor="#cc0000"
+        android:background="#ffffff"
+        android:textSize="40sp" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp" />
+    <Button
+        android:text="Play again"
+        android:soundEffectsEnabled="false"
+        android:onClick ="Play_Game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#cc0000"
+        android:background="#ffffff"
+        android:textSize="40sp" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp" />
+    <Button
+        android:text="Other apps"
+        android:onClick="Link_To_Christmas_Countdown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#cc0000"
+        android:background="#ffffff"
+        android:textSize="40sp" />
+</LinearLayout>

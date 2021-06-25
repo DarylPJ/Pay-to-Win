@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#0000ff"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="The Pay to Win Game"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:paddingBottom="150px" />
+    <Button
+        android:text="Play"
+        android:onClick="Play_Game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="#0000ff"
+        android:background="#ffffff" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp" />
+    <Button
+        android:text="Other Apps"
+        android:onClick="Link_To_Christmas_Countdown"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="#0000ff"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

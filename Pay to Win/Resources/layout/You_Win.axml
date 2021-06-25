@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00b300">
+    <TextView
+        android:text="You Win"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:paddingBottom="75px"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00b300"
+        android:textColor="#ffffff" />
+    <TextView
+        android:text="Well done you're such a skilled player!!"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:paddingBottom="50px"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00b300"
+        android:textColor="#ffffff" />
+    <Button
+        android:text="Play again"
+        android:onClick ="Play_Game"
+        android:soundEffectsEnabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00b300"
+        android:background="#ffffff"
+        android:textSize="40sp" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp" />
+    <Button
+        android:text="Go to losing page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00b300"
+        android:background="#ffffff"
+        android:textSize="40sp" 
+        android:onClick="View_Lose"/>
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp" />
+    <Button
+        android:text="Other apps"
+        android:onClick="Link_To_Christmas_Countdown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00b300"
+        android:background="#ffffff"
+        android:textSize="40sp" />
+</LinearLayout>

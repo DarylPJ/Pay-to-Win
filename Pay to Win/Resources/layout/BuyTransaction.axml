@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+    <TextView
+        android:text="Don’t worry you don’t actually have to pay anything. I will leave the micro transactions to EA. For now..."
+        android:textSize="35sp"
+        android:gravity="center"
+        android:paddingBottom="150px"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+    <Button
+        android:text="“spend” $2,100 on loot crates"
+        android:onClick="Paid_Win"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:background="#ffffff"
+        android:id="@+id/button1" />
+</LinearLayout>
